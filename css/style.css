@@ -1,0 +1,56 @@
+/* Styles for top navigation */
+#main-navbar {
+    background-color: blue;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+#main-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#main-navbar li {
+    display: inline;
+    padding: 10px 20px;
+}
+
+#main-navbar a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #000;
+}
+
+/* Styles for sidebar navigation */
+#sidebar {
+    position: fixed;
+    right: 0;
+    background-color: red;
+    width: 20%;
+    height: 100%;
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    display: block;
+}
+
+#sidebar-container ul {
+    list-style-type: none;
+    padding: 15px 0;
+}
+
+#sidebar-container li {
+    padding: 15px 0;
+}
+
+#sidebar-container a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    background-color: #000;
+}
